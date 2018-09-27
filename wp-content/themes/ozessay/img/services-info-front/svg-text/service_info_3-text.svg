@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="310">
+	<text text-anchor="middle" fill="#000" style="font: 300 16px Roboto; text-transform: uppercase">
+		<tspan x="50%" y="13">Plagiarism check</tspan>
+	</text>
+
+	<text fill="#929292">
+		<tspan x="50%" y="42" style="font: 300 14px Roboto;" text-anchor="middle">Unique content is a priority for us. We write all</tspan>
+		<tspan x="50%" y="62" style="font: 300 14px Roboto;" text-anchor="middle">papers from scratch and additionally do deep</tspan>
+		<tspan x="50%" y="82" style="font: 300 14px Roboto;" text-anchor="middle">plagiarism check with special software. Such</tspan>
+		<tspan x="50%" y="102" style="font: 300 14px Roboto;" text-anchor="middle">procedure ensures content uniqueness. Our</tspan>
+		<tspan x="50%" y="122" style="font: 300 14px Roboto;" text-anchor="middle">clients get only 100% original paper.</tspan>
+	</text>
+</svg>

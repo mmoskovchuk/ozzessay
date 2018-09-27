@@ -1,0 +1,140 @@
+/*BUTTONS: BIG-BTN*/
+.big-btn {
+	max-width: 290px;
+	min-width: 160px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 14px 28px;
+	border: 2px solid @c3;
+	background: @c3;
+	color: #fff;
+	transition: all 0.2s ease;
+	font-size: 16px;
+	line-height: 1.25;
+	font-weight: 400;
+	font-family:  Roboto, sans-serif;
+	text-transform: uppercase;
+	border-radius: 30px;
+	&:hover, &:active, &:focus {
+		background: darken(@c3, 5%) !important;
+		border-color: darken(@c3, 5%) !important;
+		color: #fff !important;
+	}
+	@media (min-width: @min-sm) {
+		padding: 17px 34px;
+		min-width: 300px;
+		max-width: none;
+		font-size: 18px;
+	}
+}
+
+.a {
+	position: relative;
+	z-index: 1;
+}
+
+/*BUTTONS: MORE-LINK (modified "big-btn")*/
+.more-btn {
+		padding: 5px 10px;
+		font-size: 16px;
+		min-width: inherit;
+	&-wrap {
+		text-align: right;
+		line-height: 1;
+	}
+}
+
+/*BUTTONS: PAGE SCROLL-TOP
+-------------------------------------------------*/
+.scroll-button {
+	@size: 40px;
+	position: fixed;
+	z-index: 1;
+	right: 20px;
+	bottom: 60px;
+	width: @size;
+	height: @size;
+	text-align: center;
+	color: darken(@c1, 15%);
+	cursor: pointer;
+	transition: 0.3s;
+	opacity: 0.5;
+	border: 1px solid darken(@c1, 15%);
+	border-radius: 5px;
+	&:hover, &:active, &:focus {opacity: 1;}
+	&:before {
+		content: "\e802";
+		font: 24px/@size 'fontello';
+	}
+}
+
+/*BUTTONS: SOCIAL
+-------------------------------------------------*/
+
+
+.si-colored.si-facebook,.si-facebook:hover {
+	background-color: #3b5998!important
+}
+
+.si-colored.si-twitter,.si-twitter:hover {
+	background-color: #00acee!important
+}
+
+.si-colored.si-gplus,.si-gplus:hover {
+	background-color: #dd4b39!important
+}
+
+.si-share .social-icon {
+	margin: -1px 0;
+	border-radius: 0;
+	font-size: 15px;
+	border: none;
+	text-align: center;
+	text-decoration: none !important;
+}
+
+.social-icon {
+	margin: 0 5px 5px 0;
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	line-height: 38px!important;
+	color: #555!important;
+	text-shadow: none;
+	border: 1px solid #aaa;
+	border-radius: 3px;
+	overflow: hidden;
+	float: right;
+	position: relative;
+	box-sizing: border-box;
+	i{
+		width: 40px;
+		height: 40px;
+		padding: 10px;
+		background: none;
+		transition: all;
+		display: block;
+		position: relative;
+		font-size: 18px;
+		&:last-child {
+			color: #fff !important;
+		}
+		.fa{
+			padding: 10px 11px 10px 15px;
+		}
+	}
+
+	&:hover i:first-child {
+		margin-top: -38px
+	}
+}
+
+body:not(.device-touch) .social-icon i {
+	transition: all .3s ease;
+}
+@media (max-width: 960px) {
+	#main .socials div.fb-like span {
+		width:100% !important;
+		overflow: hidden;
+	}
+}

@@ -1,0 +1,103 @@
+.similar-article-list {
+  position: relative;
+  padding-bottom: 10px;
+  .similar-article {
+    padding: 30px 0;
+    display: flex;
+    border-bottom: 1px solid #c6c4c4;
+    @media(max-width: 520px) {
+      display: block;
+    }
+    .similar-article-img {
+      width: 31%;
+      margin-right: 15px;
+      @media(max-width: 520px) {
+        width: 100%;
+        margin-right: 0;
+      }
+    }
+    .similar-article-content {
+      width: 69%;
+      @media(max-width: 520px) {
+        width: 100%;
+      }
+    }
+    p.h3 {
+      font-style: normal;
+      font-size: 24px;
+      line-height: 1.3;
+      font-weight: 600;
+      color: #1c1819;
+      text-align: left;
+      margin-bottom: 15px;
+      margin-top: 0;
+      a {
+        text-decoration: underline;
+        font-weight: 500;
+        text-transform: capitalize;
+        color: #2e2917;
+        cursor: pointer;
+      }
+    }
+    p {
+      font-style: italic;
+      line-height: 1.22;
+      text-align: left;
+      font-size: 18px;
+      margin-bottom: 15px;
+      color: #1c1819;
+    }
+    .meta-footer {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-between;
+    }
+    .view-info {
+      color: #888b94;
+      font-size: 18px;
+      span {
+        padding-right: 20px;
+      }
+    }
+    a.read-more {
+      position: relative;
+      text-decoration: underline;
+      font-size: 18px;
+      font-weight: 400;
+      margin-left: 26px;
+      color: #ce5116;
+      &:before {
+        content: url(./img/analog-stopwatch.svg);
+        position: absolute;
+        left: -26px;
+        top: 0;
+      }
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  a.img-preview {
+    position: relative;
+    display: block;
+    height: 185px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #efefef;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0,0,0,.4);
+      transition: background-color .2s;
+    }
+    &:hover:before {
+      background: rgba(0,0,0,.6);
+    }
+  }
+}

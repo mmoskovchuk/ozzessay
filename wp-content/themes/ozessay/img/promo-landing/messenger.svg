@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="OZessay_About-us" transform="translate(-886.000000, -4166.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="footer" transform="translate(0.000000, 3794.000000)">
+                <g id="need-help" transform="translate(675.000000, 230.000000)">
+                    <g id="button" transform="translate(195.000000, 130.000000)">
+                        <g id="messenger-(2)" transform="translate(16.000000, 12.000000)">
+                            <path d="M8,0.5 C3.858125,0.5 0.5,3.60875 0.5,7.4440625 C0.5,9.629375 1.5903125,11.5784375 3.2946875,12.8515625 L3.2946875,15.5 L5.8484375,14.0984375 C6.53,14.286875 7.251875,14.3890625 8,14.3890625 C12.141875,14.3890625 15.5,11.2803125 15.5,7.445 C15.5,3.6096875 12.141875,0.5 8,0.5 Z M8.7453125,9.8515625 L6.835625,7.814375 L3.1090625,9.8515625 L7.20875,5.4996875 L9.1653125,7.536875 L12.845,5.4996875 L8.7453125,9.8515625 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

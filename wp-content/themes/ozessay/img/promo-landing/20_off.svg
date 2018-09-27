@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="365px" height="367px" viewBox="0 0 365 367" enable-background="new 0 0 365 367" xml:space="preserve">
+<title>20% off</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="OZessay_return" transform="translate(-380.000000, -770.000000)">
+		<g id="_x32_" transform="translate(337.000000, 728.000000)">
+			<g id="_x32_0_x25_-off">
+				<g id="bg">
+					<path id="Oval-2-Copy-7" opacity="0.6962" fill="#E75D11" enable-background="new    " d="M132.616,109.26
+						C70.769,134.248,9.512,233.359,64.463,314.222s302.099,129.523,321.609,54.262C414.722,257.959,194.462,84.273,132.616,109.26z
+						"/>
+					<path id="Oval-2-Copy-8" opacity="0.4569" fill="#E75D11" enable-background="new    " d="M211.238,45.72
+						C149.397,70.705,37.148,165.162,92.186,246.245s281.963,65.768,301.41-9.635C422.155,125.877,273.078,20.734,211.238,45.72z"/>
+					
+						<linearGradient id="Mask_1_" gradientUnits="userSpaceOnUse" x1="-252.6681" y1="505.5919" x2="-253.2972" y2="504.6585" gradientTransform="matrix(355 0 0 -347 90010 175522)">
+						<stop  offset="0" style="stop-color:#FF8A00"/>
+						<stop  offset="1" style="stop-color:#FF5B00"/>
+					</linearGradient>
+					<path id="Mask" fill="url(#Mask_1_)" d="M191.715,402.859c130.544-33.799,233.945-54.151,213.756-149.79
+						C385.282,157.43,265.522,89.405,191.715,71.32C-7.506,22.505,61.171,178.491,78.538,237.09
+						C104.263,323.892,61.171,436.657,191.715,402.859z"/>
+				</g>
+				<text transform="matrix(1 0 0 1 122 238)" fill="#FFFFFF" font-family="'Helvetica-Bold'" font-size="100">20%</text>
+				<text transform="matrix(1 0 0 1 122 320)" fill="#FFFFFF" font-family="'Helvetica-Bold'" font-size="100">OFF</text>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

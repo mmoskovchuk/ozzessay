@@ -1,0 +1,83 @@
+.site_testimonials {
+	background: @c1;
+	overflow: hidden;
+	&__content {
+		max-width: 460px;
+		margin: 0 auto 30px;
+		color: #2d2d2e;
+	}
+	&__title {
+		margin: 30px 0 10px;
+		font-size: 20px;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+	&__text {
+		font-size: 16px;
+		text-align: justify;
+	}
+	@media (min-width: @min-sm) {
+		.valign {
+			display: flex;
+			align-items: center;
+		}
+		&__content {
+			margin: 0;
+			max-height: 488px;
+			overflow: hidden;
+		}
+	}
+	@media (min-width: @min-md) {
+		&__content {max-height: 699px;}
+		&__text {font-size: 18px;}
+	}
+}
+
+/*TESTIMONIALS: SLIDER*/
+.testim-slider {
+	margin: auto;
+	padding: 83px 20px 0 24px;
+	list-style: none;
+	width: 283px;
+	height: 488px;
+	background: url(img/testim-slider/bg.png) no-repeat 50% 50%;
+	background-size: contain;
+	position: relative;
+	.owl-controls {
+		margin: -30px 0 0 0;
+		position: relative;
+		.owl-page {
+			span {
+				background: transparent;
+				border: 2px solid #5b5b5b;
+				margin: 10px 7px;
+			}
+			&.active span, &:hover span {
+				border-color: @c1;
+				background: @c1;
+			}
+		}
+	}
+	@media (min-width: @min-xs) {
+		.owl-controls {
+			position: absolute;
+			top: 50%;
+			left: 100%;
+			width: 25px;
+			margin: 0 0 0 20px;
+			.owl-page {
+				&.active span, &:hover span {
+					border-color: #fff;
+					background: #fff;
+				}
+			}
+		}
+	}
+	@media (min-width: @min-md) {
+		margin: 0;
+		width: 406px;
+		height: 699px;
+		padding: 119px 30px 0 35px;
+			.owl-controls {margin: 0 0 0 27px;}
+	}
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="600px" viewBox="0 0 375 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-1.88040761%" y1="50%" x2="130.586984%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#F26C3A" offset="0%"></stop>
+            <stop stop-color="#FFAE50" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="OZessay_mobile_About-Us" transform="translate(0.000000, -2767.000000)">
+            <g id="Our-Team" transform="translate(-1.000000, 2767.000000)">
+                <g id="Group-4">
+                    <rect id="Rectangle-3" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="377" height="600"></rect>
+                    <path d="M1,95 C54.9703214,163.447053 117.470321,211.57597 188.5,239.386751 C259.529679,267.197533 322.029679,275.003119 376,262.803511 L376,554.644704 C366.641711,519.949477 335.416106,478.073757 282.323184,429.017545 C229.230261,379.961334 135.455867,360.579109 1,370.870871 L1,95 Z" id="Rectangle-3-Copy" fill="url(#linearGradient-1)" opacity="0.0676897336"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

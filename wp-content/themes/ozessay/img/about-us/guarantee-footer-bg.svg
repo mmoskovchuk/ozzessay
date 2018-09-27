@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="475px" viewBox="0 0 1920 475" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="29.9698691%" y1="75.3441951%" x2="81.1591397%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#F26C3A" offset="0%"></stop>
+            <stop stop-color="#FFAF50" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="1.3649527e-11 0.0184971043 1920 0.0184971043 1920 325.022161 1.31876732e-11 325.022161"></polygon>
+        <linearGradient x1="1.24314424%" y1="100%" x2="99.2018521%" y2="31.3381582%" id="linearGradient-4">
+            <stop stop-color="#E0481B" offset="0%"></stop>
+            <stop stop-color="#F7BC40" offset="100%"></stop>
+            <stop stop-color="#F7BC40" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-5" x="0" y="0" width="1920" height="150"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="OZessay_About-us" transform="translate(0.000000, -3794.000000)">
+            <g id="footer" transform="translate(0.000000, 3794.000000)">
+                <g id="Group-5">
+                    <g id="plas-+-oval-Mask" transform="translate(0.000000, 149.000000)">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Mask" fill="url(#linearGradient-1)" opacity="0.296027" transform="translate(960.000000, 162.520329) rotate(180.000000) translate(-960.000000, -162.520329) " xlink:href="#path-2"></use>
+                        <g id="plas" opacity="0.182254464" mask="url(#mask-3)" stroke-linecap="square">
+                            <g transform="translate(282.000000, -125.000000)">
+                                <g id="6" transform="translate(1251.000000, 81.000000)">
+                                    <path d="M10.5,7.2858386e-17 L10.5,21" id="Line" stroke="#FFFFFF" stroke-width="2"></path>
+                                    <path d="M10.5,7.2858386e-17 L10.5,21" id="Line-Copy" stroke="#FFFFFF" stroke-width="2" transform="translate(10.500000, 10.500000) rotate(90.000000) translate(-10.500000, -10.500000) "></path>
+                                </g>
+                                <g id="5" transform="translate(900.000000, 21.000000)">
+                                    <path d="M23,1.56125113e-16 L23,45" id="Line" stroke="#FFFFFF" stroke-width="2"></path>
+                                    <path d="M23,1.56125113e-16 L23,45" id="Line-Copy" stroke="#FFFFFF" stroke-width="2" transform="translate(23.000000, 22.500000) rotate(90.000000) translate(-23.000000, -22.500000) "></path>
+                                </g>
+                                <g id="4" transform="translate(429.000000, 0.000000)">
+                                    <path d="M10.5,7.2858386e-17 L10.5,21" id="Line" stroke="#FFFFFF" stroke-width="2"></path>
+                                    <path d="M10.5,7.2858386e-17 L10.5,21" id="Line-Copy" stroke="#FFFFFF" stroke-width="2" transform="translate(10.500000, 10.500000) rotate(90.000000) translate(-10.500000, -10.500000) "></path>
+                                </g>
+                                <g id="3" transform="translate(687.000000, 211.000000)">
+                                    <path d="M15,1.04083409e-16 L15,30" id="Line" stroke="#FFFFFF" stroke-width="2"></path>
+                                    <path d="M15,1.04083409e-16 L15,30" id="Line-Copy" stroke="#FFFFFF" stroke-width="2" transform="translate(15.000000, 15.000000) rotate(90.000000) translate(-15.000000, -15.000000) "></path>
+                                </g>
+                                <g id="2" opacity="0.200000003" transform="translate(197.000000, 241.000000)">
+                                    <path d="M23,1.5959456e-16 L23,46" id="Line" stroke="#FFFFFF" stroke-width="2"></path>
+                                    <path d="M23,1.5959456e-16 L23,46" id="Line-Copy" stroke="#FFFFFF" stroke-width="2" transform="translate(23.000000, 23.000000) rotate(90.000000) translate(-23.000000, -23.000000) "></path>
+                                </g>
+                                <g id="1" transform="translate(0.000000, 81.000000)">
+                                    <path d="M10.5,7.2858386e-17 L10.5,21" id="Line" stroke="#FFFFFF" stroke-width="2"></path>
+                                    <path d="M10.5,7.2858386e-17 L10.5,21" id="Line-Copy" stroke="#FFFFFF" stroke-width="2" transform="translate(10.500000, 10.500000) rotate(90.000000) translate(-10.500000, -10.500000) "></path>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="oval" opacity="0.176841518" mask="url(#mask-3)" stroke="#FFFFFF" stroke-width="2">
+                            <g transform="translate(-86.000000, -135.000000)">
+                                <circle id="Oval-10" cx="2022.5" cy="147.5" r="147.5"></circle>
+                                <circle id="Oval-9" cx="1700.5" cy="295.5" r="63.5"></circle>
+                                <circle id="Oval-8" cx="1581" cy="261" r="10"></circle>
+                                <circle id="Oval-7" cx="1241" cy="140" r="10"></circle>
+                                <circle id="Oval-5" cx="968" cy="24" r="10"></circle>
+                                <circle id="Oval-4" cx="690" cy="140" r="10"></circle>
+                                <circle id="Oval-3" cx="726.5" cy="394.5" r="63.5"></circle>
+                                <circle id="Oval-2" cx="437" cy="241" r="10"></circle>
+                                <circle id="Oval-1" cx="147.5" cy="241.5" r="147.5"></circle>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="plas-+-oval-Mask">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <use id="Mask" fill="url(#linearGradient-4)" xlink:href="#path-5"></use>
+                        <g id="plas" opacity="0.182254464" mask="url(#mask-6)" stroke-linecap="square">
+                            <g transform="translate(282.000000, 24.000000)">
+                                <g id="6" transform="translate(1251.000000, 81.000000)">
+                                    <path d="M10.5,7.2858386e-17 L10.5,21" id="Line" stroke="#FFFFFF" stroke-width="2"></path>
+                                    <path d="M10.5,7.2858386e-17 L10.5,21" id="Line-Copy" stroke="#FFFFFF" stroke-width="2" transform="translate(10.500000, 10.500000) rotate(90.000000) translate(-10.500000, -10.500000) "></path>
+                                </g>
+                                <g id="5" transform="translate(900.000000, 21.000000)">
+                                    <path d="M23,1.56125113e-16 L23,45" id="Line" stroke="#FFFFFF" stroke-width="2"></path>
+                                    <path d="M23,1.56125113e-16 L23,45" id="Line-Copy" stroke="#FFFFFF" stroke-width="2" transform="translate(23.000000, 22.500000) rotate(90.000000) translate(-23.000000, -22.500000) "></path>
+                                </g>
+                                <g id="4" transform="translate(429.000000, 0.000000)">
+                                    <path d="M10.5,7.2858386e-17 L10.5,21" id="Line" stroke="#FFFFFF" stroke-width="2"></path>
+                                    <path d="M10.5,7.2858386e-17 L10.5,21" id="Line-Copy" stroke="#FFFFFF" stroke-width="2" transform="translate(10.500000, 10.500000) rotate(90.000000) translate(-10.500000, -10.500000) "></path>
+                                </g>
+                                <g id="3" transform="translate(687.000000, 211.000000)">
+                                    <path d="M15,1.04083409e-16 L15,30" id="Line" stroke="#FFFFFF" stroke-width="2"></path>
+                                    <path d="M15,1.04083409e-16 L15,30" id="Line-Copy" stroke="#FFFFFF" stroke-width="2" transform="translate(15.000000, 15.000000) rotate(90.000000) translate(-15.000000, -15.000000) "></path>
+                                </g>
+                                <g id="2" opacity="0.200000003" transform="translate(197.000000, 241.000000)">
+                                    <path d="M23,1.5959456e-16 L23,46" id="Line" stroke="#FFFFFF" stroke-width="2"></path>
+                                    <path d="M23,1.5959456e-16 L23,46" id="Line-Copy" stroke="#FFFFFF" stroke-width="2" transform="translate(23.000000, 23.000000) rotate(90.000000) translate(-23.000000, -23.000000) "></path>
+                                </g>
+                                <g id="1" transform="translate(0.000000, 81.000000)">
+                                    <path d="M10.5,7.2858386e-17 L10.5,21" id="Line" stroke="#FFFFFF" stroke-width="2"></path>
+                                    <path d="M10.5,7.2858386e-17 L10.5,21" id="Line-Copy" stroke="#FFFFFF" stroke-width="2" transform="translate(10.500000, 10.500000) rotate(90.000000) translate(-10.500000, -10.500000) "></path>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="oval" opacity="0.176841518" mask="url(#mask-6)" stroke="#FFFFFF" stroke-width="2">
+                            <g transform="translate(-86.000000, 14.000000)">
+                                <circle id="Oval-10" cx="2022.5" cy="147.5" r="147.5"></circle>
+                                <circle id="Oval-9" cx="1700.5" cy="295.5" r="63.5"></circle>
+                                <circle id="Oval-8" cx="1581" cy="261" r="10"></circle>
+                                <circle id="Oval-7" cx="1241" cy="140" r="10"></circle>
+                                <circle id="Oval-5" cx="968" cy="24" r="10"></circle>
+                                <circle id="Oval-4" cx="690" cy="140" r="10"></circle>
+                                <circle id="Oval-3" cx="726.5" cy="394.5" r="63.5"></circle>
+                                <circle id="Oval-2" cx="437" cy="241" r="10"></circle>
+                                <circle id="Oval-1" cx="147.5" cy="241.5" r="147.5"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

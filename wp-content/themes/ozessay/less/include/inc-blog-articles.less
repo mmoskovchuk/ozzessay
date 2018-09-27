@@ -1,0 +1,97 @@
+.blog-articles {
+  h2 {
+    font-size: 34px;
+    margin: 40px 0;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+    &::after {
+      margin: 30px auto 0;
+      display: block;
+      content: '';
+      width: 73px;
+      border-top: 3px solid #b42f00;
+    }
+  }
+  .article-item {
+    color: #efefef;
+    h4 {
+      position: absolute;
+      bottom: 40px;
+      left: 10px;
+      padding: 0 10px;
+      color: #efefef;
+    }
+    p {
+      font-size: 18px;
+      font-family: 'Helvetica',sans-serif;
+      line-height: 1.5;
+      padding-top: 18px;
+      color: #000;
+    }
+    a {
+      color: #efefef;
+    }
+    span {
+      position: absolute;
+      bottom: 12px;
+      left: 10px;
+      padding: 0 10px;
+      font-size: 14px;
+      font-style: italic;
+    }
+    .item {
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 0 20px;
+        background: rgba(0, 0, 0, .4);
+        transition: background-color .2s;
+        background-size: cover;
+        height: 185px;
+      }
+      &:hover {
+        &::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          padding: 0 20px;
+          background: rgba(0, 0, 0, .6);
+          transition: background-color .2s;
+          background-size: cover;
+          height: 185px;
+          cursor: pointer;
+        }
+      }
+      &.pic {
+        position: relative;
+        display: block;
+        height: 185px;
+        background: center no-repeat;
+        background-size: cover;
+        &.first {
+          background-image: url('./img/scholarship-essay-writing-contest-cover-image.png');
+        }
+        &.two {
+          background-image: url('./img/satisfaction-guarantee-by-essaymasters1.jpg');
+        }
+        &.three {
+          background-image: url('./img/article-og-image.jpg');
+        }
+        &.four {
+          background-image: url('./img/ideas-for-successful-collaboration-on-essaymasters.jpg');
+        }
+      }
+    }
+  }
+}
+

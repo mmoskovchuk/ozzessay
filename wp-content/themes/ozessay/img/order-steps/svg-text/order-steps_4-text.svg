@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<text fill="#83bf3e">
+		<tspan x="50%" y="20" style="font: 300 18px Roboto;" text-anchor="middle">You get a</tspan>
+		<tspan x="50%" y="45" style="font: 300 18px Roboto;" text-anchor="middle">completed project</tspan>
+		<tspan x="50%" y="70" style="font: 300 18px Roboto;" text-anchor="middle">hassle free</tspan>
+	</text>
+</svg>

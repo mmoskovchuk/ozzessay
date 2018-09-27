@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>messenger</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="OZ-27/02-Home-page" transform="translate(-1231.000000, -16.000000)" fill="#FFEA93">
+            <g id="Group-15" transform="translate(1075.000000, 13.000000)">
+                <g id="Group-6">
+                    <g id="Group-2">
+                        <g id="whatsapp-logo">
+                            <g id="Group-7">
+                                <g id="messenger" transform="translate(156.000000, 3.000000)">
+                                    <path d="M9.41889248,0.0134049199 C4.23684834,0.0134049199 0,3.90351267 0,8.70187821 C0,11.4358861 1.37594055,13.8749857 3.46115031,15.4677881 L3.46115031,18.7802927 L6.69233178,17.0269292 C7.54488468,17.2631537 8.46595162,17.3903515 9.40131714,17.3903515 C14.5833613,17.3903515 18.7936977,13.5002437 18.7936977,8.70187821 C18.7936977,3.90351267 14.6009366,0.0134049199 9.41889248,0.0134049199 Z M10.3518749,11.7138148 L7.96192663,9.16509266 L3.29939761,11.7138148 L8.42841784,6.26903419 L10.8761562,8.81775629 L15.4805972,6.26903419 L10.3518749,11.7138148 Z" id="Combined-Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

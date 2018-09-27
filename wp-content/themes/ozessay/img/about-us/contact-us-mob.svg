@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="380px" viewBox="0 0 375 380" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>plas + plas copy + oval + oval copy Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="375" height="380"></rect>
+        <linearGradient x1="-366.839923%" y1="100%" x2="667.629193%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#E0481B" offset="0%"></stop>
+            <stop stop-color="#FFAE50" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-1.88040761%" y1="50%" x2="130.586984%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#F26C3A" offset="0%"></stop>
+            <stop stop-color="#FFAE50" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="80.0910054%" y1="15.7279293%" x2="0%" y2="82.2714416%" id="linearGradient-5">
+            <stop stop-color="#FBB072" offset="0%"></stop>
+            <stop stop-color="#F5783E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="OZessay_mobile_About-Us" transform="translate(0.000000, -3355.000000)">
+            <g id="our-contacts" transform="translate(0.000000, 3355.000000)">
+                <g id="bg">
+                    <g id="plas-+-plas-copy-+-oval-+-oval-copy-Mask">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g id="plas" mask="url(#mask-2)" stroke-linecap="square">
+                            <g transform="translate(72.000000, 28.000000)">
+                                <g id="1" transform="translate(26.000000, 0.000000)">
+                                    <path d="M8.63507109,5.3057822e-17 L8.63507109,15.292876" id="Line" stroke="url(#linearGradient-3)" stroke-width="2"></path>
+                                    <path d="M8.63507109,5.3057822e-17 L8.63507109,15.292876" id="Line-Copy" stroke="url(#linearGradient-3)" stroke-width="2" transform="translate(8.635071, 7.646438) rotate(90.000000) translate(-8.635071, -7.646438) "></path>
+                                </g>
+                                <g id="1-copy-6" transform="translate(0.000000, 287.638522)">
+                                    <path d="M14.4522681,9.34828292e-17 L14.4522681,26.944591" id="Line" stroke="url(#linearGradient-3)" stroke-width="2"></path>
+                                    <path d="M14.4522681,9.34828292e-17 L14.4522681,26.944591" id="Line-Copy" stroke="url(#linearGradient-3)" stroke-width="2" transform="translate(14.452268, 13.472296) rotate(90.000000) translate(-14.452268, -13.472296) "></path>
+                                </g>
+                                <g id="1-copy-7" transform="translate(240.000000, 349.000000)">
+                                    <path d="M22.8144888,1.51593777e-16 L22.8144888,43.6939314" id="Line" stroke="url(#linearGradient-3)" stroke-width="2"></path>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="plas-copy" opacity="0.140736607" mask="url(#mask-2)" stroke-linecap="square">
+                            <g transform="translate(279.000000, 307.000000)" id="1-copy-6">
+                                <g transform="translate(0.000000, 0.722955)">
+                                    <path d="M10.8324306,6.9773416e-17 L10.8324306,20.1108179" id="Line" stroke="url(#linearGradient-3)" stroke-width="2"></path>
+                                    <path d="M10.8324306,6.9773416e-17 L10.8324306,20.1108179" id="Line-Copy" stroke="url(#linearGradient-3)" stroke-width="2" transform="translate(10.832431, 10.055409) rotate(90.000000) translate(-10.832431, -10.055409) "></path>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="oval" mask="url(#mask-2)" stroke="url(#linearGradient-5)" stroke-width="2">
+                            <g transform="translate(40.000000, 259.000000)">
+                                <ellipse id="Oval-6-Copy-10" cx="7.16955446" cy="6.51875" rx="6.18143564" ry="6.17767857"></ellipse>
+                                <ellipse id="Oval-6-Copy-12" cx="119.889851" cy="130.799107" rx="38.1794554" ry="38.15625"></ellipse>
+                            </g>
+                        </g>
+                        <g id="oval-copy" opacity="0.140736607" mask="url(#mask-2)" stroke="url(#linearGradient-5)" stroke-width="2">
+                            <g transform="translate(-53.000000, 21.000000)">
+                                <ellipse id="Oval-6-Copy-11" cx="50.509901" cy="132.571429" rx="50.509901" ry="51.5714286"></ellipse>
+                                <ellipse id="Oval-6-Copy-12" cx="392.913366" cy="28.5" rx="27.9133663" ry="28.5"></ellipse>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

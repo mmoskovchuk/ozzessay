@@ -1,0 +1,79 @@
+.site_services-slider {
+	margin-bottom: 30px;
+	.owl-controls {
+		margin: 0;
+		padding-top: 10px;
+		clear: both;
+		.owl-page {
+			span {
+				background: transparent;
+				border: 2px solid #5b5b5b;
+			}
+			&.active span, &:hover span {
+				border-color: @c1;
+				background: @c1;
+			}
+		}
+	}
+	@media (min-width: @min-md) {
+		&, .section-title {margin-bottom: 100px;}
+		.owl-controls {padding-top: 30px;}
+		&__pagination {
+			margin-top: -70px;
+			background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.1) 10%, rgba(0,0,0,0) 100%);
+		}
+	}
+}
+
+/*SERVICES SLIDER: SLIDER 1 (images)*/
+.site_services-slider-1 {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background: url(img/services-slider/bg.png) no-repeat top;
+	max-width: 693px;
+	max-height: 403px;
+	background-size: contain;
+	&__image {
+		padding-top: 3.2%;
+		padding-bottom: 11.8%;
+		padding-left: 13.2%;
+		padding-right: 13.3%;
+	}
+	li { // if disabled js
+		display: none;
+		&:first-child {display: block;}
+	}
+}
+
+/*SERVICES SLIDER: SLIDER 2 (texts)*/
+.site_services-slider-2 {
+	margin: 15px 0 0;
+	padding: 0;
+	list-style-type: none;
+	&__img-text {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	&__title {
+		margin-bottom: 20px;
+		font-size: 20px;
+		text-transform: uppercase;
+		color: #383840;
+	}
+	&__text {
+		margin-bottom: 15px;
+		font-size: 14px;
+		color: #929292;
+	}
+	&__price {
+		font-style: italic;
+		color: #69bdf9;
+		text-align: right;
+		margin-right: 5px;
+		span {font-size: 30px;}
+	}
+	@media (min-width: @min-xs) {
+		&__text {font-size: 18px;}
+	}
+}

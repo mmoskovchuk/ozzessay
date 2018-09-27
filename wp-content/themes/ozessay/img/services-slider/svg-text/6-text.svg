@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="380" height="180" >
+	<text x="0" y="15" fill="#383840" style="font: 300 20px Roboto;">DOUBLE CHECK</text>
+	<text fill="#929292" style="font: 300 18px Roboto;">
+		<tspan x="0" y="60">Your completed paper will be double checked by</tspan>
+		<tspan x="0" y="85">our Quality Assurance dept. to ensure the</tspan>
+		<tspan x="0" y="110">highest quality.</tspan>
+	</text>
+	<text text-anchor="end" x="380" y="170" fill="#69bdf9">
+		<tspan style="font: italic 300 30px Roboto;">Extra charge</tspan>
+	</text>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1192px" height="525px" viewBox="0 0 1192 525" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 73130</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,0 L844.171836,0 L844.171836,525 L2.16021668e-14,525 L1.44014446e-14,0 L0,0 Z M1209,262.5 L844.171836,525 L844.171836,0 L1209,262.5 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="EM-27/02-Home-page" transform="translate(0.000000, -130.000000)">
+            <g id="Group-73130" transform="translate(-17.000000, 130.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Clip-73129" fill="#F1E142" xlink:href="#path-1"></use>
+                <polygon id="Fill-73128" fill="#FAFBF1" mask="url(#mask-2)" points="-121.609388 -5.06756757 1214.06706 -5.06756757 1214.06706 530.067568 -121.609388 530.067568"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

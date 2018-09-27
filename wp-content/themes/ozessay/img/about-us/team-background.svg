@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="690px" viewBox="0 0 1920 690" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-1.88040761%" y1="50%" x2="130.586984%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#F26C3A" offset="0%"></stop>
+            <stop stop-color="#FFAE50" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-366.839923%" y1="100%" x2="667.629193%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#E0481B" offset="0%"></stop>
+            <stop stop-color="#FFAE50" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="80.0910054%" y1="15.7279293%" x2="0%" y2="82.2714416%" id="linearGradient-3">
+            <stop stop-color="#FBB072" offset="0%"></stop>
+            <stop stop-color="#F5783E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="OZessay_About-us" transform="translate(0.000000, -2614.000000)">
+            <g id="Our-Team" transform="translate(0.000000, 2614.000000)">
+                <g id="Group-4">
+                    <rect id="Rectangle-3" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="1920" height="690"></rect>
+                    <path d="M0,80 C265.624702,327.835016 597.401891,413.77684 995.331567,337.825473 C1393.26124,261.874106 1701.48405,261.874106 1920,337.825473 L1920,550.396639 C1781.28812,494.663254 1633.97755,461.918327 1478.0683,452.161859 C1244.20441,437.527158 822.661763,491.994142 558.537071,550.396639 C382.453943,589.331637 196.274919,589.331637 6.66133815e-15,550.396639 L3.77526309e-15,265.679029 L0,80 Z" id="Rectangle-3-Copy" fill="url(#linearGradient-1)" opacity="0.0676897336"></path>
+                    <g id="bg" transform="translate(1028.000000, 145.000000)" stroke-width="2">
+                        <g id="plas" transform="translate(297.000000, 40.000000)" stroke="url(#linearGradient-2)" stroke-linecap="square">
+                            <g id="1" transform="translate(384.000000, 0.000000)">
+                                <path d="M10.5,7.2858386e-17 L10.5,21" id="Line"></path>
+                                <path d="M10.5,7.2858386e-17 L10.5,21" id="Line-Copy" transform="translate(10.500000, 10.500000) rotate(90.000000) translate(-10.500000, -10.500000) "></path>
+                            </g>
+                            <g id="1-copy-6" transform="translate(0.000000, 97.000000)">
+                                <path d="M18.5,1.28369537e-16 L18.5,37" id="Line"></path>
+                                <path d="M18.5,1.28369537e-16 L18.5,37" id="Line-Copy" transform="translate(18.500000, 18.500000) rotate(90.000000) translate(-18.500000, -18.500000) "></path>
+                            </g>
+                            <g id="1-copy-7" transform="translate(358.000000, 319.000000)">
+                                <path d="M30,2.08166817e-16 L30,60" id="Line"></path>
+                                <path d="M30,2.08166817e-16 L30,60" id="Line-Copy" transform="translate(30.000000, 30.000000) rotate(90.000000) translate(-30.000000, -30.000000) "></path>
+                            </g>
+                        </g>
+                        <g id="plas-copy" opacity="0.140736607" transform="translate(533.000000, 91.000000)" stroke="url(#linearGradient-2)" stroke-linecap="square">
+                            <g id="1" transform="translate(280.785376, 0.000000)">
+                                <path d="M7.67772512,5.44034914e-17 L7.67772512,15.6807388" id="Line"></path>
+                                <path d="M7.67772512,5.44034914e-17 L7.67772512,15.6807388" id="Line-Copy" transform="translate(7.677725, 7.840369) rotate(90.000000) translate(-7.677725, -7.840369) "></path>
+                            </g>
+                            <g id="1-copy-6" transform="translate(0.000000, 72.430079)">
+                                <path d="M13.5274204,9.58537705e-17 L13.5274204,27.6279683" id="Line"></path>
+                                <path d="M13.5274204,9.58537705e-17 L13.5274204,27.6279683" id="Line-Copy" transform="translate(13.527420, 13.813984) rotate(90.000000) translate(-13.527420, -13.813984) "></path>
+                            </g>
+                            <g id="1-copy-7" transform="translate(261.773866, 238.197889)">
+                                <path d="M21.9363575,1.55438547e-16 L21.9363575,44.8021108" id="Line"></path>
+                                <path d="M21.9363575,1.55438547e-16 L21.9363575,44.8021108" id="Line-Copy" transform="translate(21.936357, 22.401055) rotate(90.000000) translate(-21.936357, -22.401055) "></path>
+                            </g>
+                        </g>
+                        <g id="oval" transform="translate(205.000000, 0.000000)" stroke="url(#linearGradient-3)">
+                            <circle id="Oval-6-Copy-6" cx="469.5" cy="267.5" r="8.5"></circle>
+                            <circle id="Oval-6-Copy-10" cx="8.5" cy="105.5" r="8.5"></circle>
+                            <circle id="Oval-6-Copy-12" cx="163.5" cy="276.5" r="52.5"></circle>
+                        </g>
+                        <g id="oval-copy" opacity="0.140736607" transform="translate(0.000000, 160.000000)" stroke="url(#linearGradient-3)">
+                            <ellipse id="Oval-6-Copy-6" cx="468.326485" cy="232.183929" rx="6.21509901" ry="6.34464286"></ellipse>
+                            <ellipse id="Oval-6-Copy-9" cx="656.97302" cy="66.4767857" rx="6.21509901" ry="6.34464286"></ellipse>
+                            <ellipse id="Oval-6-Copy-10" cx="131.248762" cy="111.2625" rx="6.21509901" ry="6.34464286"></ellipse>
+                            <ellipse id="Oval-6-Copy-11" cx="35.4628713" cy="36.6193902" rx="35.4628713" ry="36.2020384"></ellipse>
+                            <ellipse id="Oval-6-Copy-12" cx="244.582921" cy="238.901786" rx="38.3873762" ry="39.1875"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

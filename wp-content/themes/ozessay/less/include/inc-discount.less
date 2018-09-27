@@ -1,0 +1,64 @@
+.site_discount {
+	height: 361px;
+	background: url(img/prices/bottom-prices.jpg) 50% 0;
+	text-align: center;
+	display: flex;
+	//align-items: center;
+	margin-top: 0;
+	&__title {
+		margin-bottom: 30px;
+		color: #000000;
+		font-family: Helvetica;
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 46px;
+		margin-top: 47px;
+		span {
+			color: #ce5017;
+		}
+	}
+	.site_discount {
+		&__btn {
+			width: 328px;
+			height: 48px;
+			border-radius: 4px;
+			background-color: #ce5017;
+			color: #ffffff;
+			font-family: Helvetica;
+			font-size: 16px;
+			font-weight: 700;
+			line-height: 16px;
+			padding: 17px 107px;
+			text-decoration: none;
+			text-transform: uppercase;
+			&:hover {
+				background-color: #a53c0c;
+			}
+			@media(max-width: 360px) {
+				padding: 17px 76px;
+			}
+		}
+	}
+}
+
+.site_discount-guarantees {
+	height: 370px;
+	background: url(img/bg-discount.jpg) 50% 50%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	&__title {
+		margin-bottom: 30px;
+		font-size: 30px;
+		color: #fff;
+	}
+	@media (min-width: @min-sm) {
+		&__title {
+			font-size: 50px;
+		}
+		.big-btn {
+			width: 100%;
+			max-width: 350px;
+		}
+	}
+}

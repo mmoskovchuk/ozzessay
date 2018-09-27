@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+	<text x="0" y="15" fill="#383840" style="font: 300 20px Roboto;">HIGH PRIORITY ORDER</text>
+	<text fill="#929292" style="font: 300 18px Roboto;">
+		<tspan x="0" y="60">Choosing high priority option means that your</tspan>
+		<tspan x="0" y="85">order will obtain higher priority over other orders.</tspan>
+		<tspan x="0" y="110">It will be listed at the top of the queue of our</tspan>
+		<tspan x="0" y="135">available orders.</tspan>
+	</text>
+	<text text-anchor="end" x="380" y="170" fill="#69bdf9">
+		<tspan style="font: italic 300 20px Roboto;">$</tspan>
+		<tspan style="font: italic 300 30px Roboto;">9.99</tspan>
+	</text>
+</svg>

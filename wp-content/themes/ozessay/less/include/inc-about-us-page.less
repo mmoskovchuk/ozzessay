@@ -1,0 +1,638 @@
+// ************************
+// Header
+// *****************************************//
+section.about-us-header {
+  background: url("img/about-us/header.svg") no-repeat;
+  background-size: cover;
+  height: 355px;
+  .breadcrumb-about {
+    position: absolute;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #888b94;
+    li {
+      display: inline-block;
+      margin-right: 3px;
+      a {
+        text-decoration: none;
+        color: #ffffff;
+        position: relative;
+        &:after {
+          content: '';
+          position: absolute;
+          width: 5px;
+          height: 5px;
+          background-color: #ffffff;
+          border-radius: 3px;
+          top: 4px;
+          right: -12px;
+        }
+      }
+      &:nth-child(2) {
+        color: #f9ecac;
+        padding-left: 12px;
+      }
+    }
+  }
+  h1 {
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+  }
+  p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+  }
+}
+// Responsive Header
+@media only screen and (max-width: 1200px) {
+  section.about-us-header {
+    margin-top: -50px;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  section.about-us-header {
+    margin-top: 27px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  section.about-us-header {
+    background: url("img/about-us/mobile-header.svg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0 0 0;
+    margin-top: 0;
+    .breadcrumb-about {
+      margin: -22px 0 0 -25px;
+    }
+    h1 {
+      text-align: left;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 40px;
+      letter-spacing: 2px;
+      padding: 30px 30px 0 30px;
+    }
+    p {
+      text-align: left;
+      font-size: 15px;
+      line-height: 24px;
+      letter-spacing: 0.90px;
+      padding: 10px 30px 0 30px;
+    }
+  }
+}
+// ************************
+// Ozessay story
+// *****************************************//
+section.ozessay-story {
+  background: url("img/about-us/story-bg.svg") no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding: 100px 0 20px 0;
+  .text-blocks {
+    .block {
+      background: #ffffff;
+      box-shadow: 0 0 40px -8px rgba(115, 44, 18, 0.2);
+      margin-top: 25px;
+      padding: 10px 30px 25px 30px;
+      h2 {
+        color: #242424;
+        font-size: 30px;
+        font-weight: 500;
+        padding-bottom: 20px;
+      }
+      p {
+        font-size: 16px;
+        color: #242424;
+        margin-bottom: 25px;
+        line-height: 24px;
+      }
+    }
+  }
+  .numbers {
+    margin: 150px 0 0 0;
+    .text {
+      width: 430px;
+      h3 {
+        font-size: 30px;
+        font-weight: 600;
+      }
+    }
+    .count {
+      width: 235px;
+      h4 {
+        font-size: 60px;
+        font-weight: 300;
+        background: linear-gradient(56deg, #e0481b 0%, #f7bc40 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding-left: 15px;
+        margin-bottom: 20px;
+      }
+      p {
+        color: #939393;
+        font-size: 18px;
+        line-height: 28px;
+        text-transform: uppercase;
+        padding-left: 15px;
+      }
+    }
+    .border {
+      border-right: 2px solid #f3f3f3;
+    }
+  }
+}
+// Responsive Ozessay story
+@media only screen and (max-width: 1200px) {
+  section.ozessay-story {
+    padding: 70px 0 20px 0;
+    background-position: center;
+    .numbers {
+      margin: 50px 0 0 0;
+      .text {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 40px;
+      }
+      .count {
+        width: 33.3%;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  section.ozessay-story {
+    background-position: top;
+    padding: 30px 0 20px 0;
+    .numbers {
+      margin: 40px 0 0 0;
+      .count {
+        width: 60%;
+        margin: 0 20% 50px 20%;
+      }
+      .border {
+        border-left: 2px solid #f3f3f3;
+        border-right: none;
+        padding-left: 25px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 700px) {
+  section.ozessay-story {
+    background: url("img/about-us/mobile-story-bg.svg") no-repeat;
+    background-size: 100%;
+    .text-blocks {
+      .block {
+        padding: 5px 10px 5px 10px;
+        margin: 25px 15px 0 15px;
+        h2 {
+          font-size: 24px;
+        }
+        p {
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+    }
+    .numbers {
+      margin: 30px 0 0 0;
+      .text {
+        h3 {
+          text-align: left;
+          font-size: 24px;
+          line-height: 35px;
+        }
+      }
+      .count {
+        width: 80%;
+        margin: 0 10% 50px 10%;
+      }
+      .border {
+        border-left: 2px solid #f3f3f3;
+        border-right: none;
+        padding-left: 15px;
+      }
+    }
+  }
+}
+// ************************
+// About ozessay
+// *****************************************//
+section.about-ozessay {
+  padding: 120px 0 0 0;
+  .about_us-block {
+    width: 47%;
+    height: 226px;
+    box-shadow: 0 0 40px -8px rgba(115, 44, 18, 0.2);
+    padding-top: 10px;
+    margin: 1.5% 1.5% 1.5% 1.5%;
+    .vertical-center {
+      .flex-start {
+        display: flex;
+        align-items: flex-start;
+        padding-top: 20px;
+        .image-block {
+          width: 15%;
+          margin-left: 10px;
+        }
+        .text-block {
+          width: 85%;
+          h2 {
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin: 0 0 20px 0;
+          }
+          p {
+            font-size: 16px;
+            letter-spacing: 0.3px;
+            line-height: 24px;
+            padding-right: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1200px) {
+  section.about-ozessay {
+    padding: 75px 0 0 0;
+    .about_us-block {
+      height: 246px;
+      .vertical-center {
+        .flex-start {
+          .image-block {
+            width: 20%;
+          }
+          .text-block {
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
+}
+// About slider
+@media only screen and (max-width: 992px) {
+  section.about-ozessay {
+    padding: 30px 0 0 0;
+    .about_us-block {
+      display: table;
+      width: 80%;
+      height: 280px;
+      padding-top: 0;
+      margin: 25px 10% 25px 10%;
+      .vertical-center {
+        display: table-cell;
+        vertical-align: middle;
+        .flex-start {
+          display: block;
+          .image-block {
+            width: 77px;
+            height: 92px;
+            margin: auto;
+            img {
+              width: 90%;
+            }
+          }
+          .text-block {
+            width: 100%;
+            h2 {
+              padding-top: 10px;
+              text-align: center;
+            }
+            p {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 700px) {
+  section.about-ozessay {
+    padding: 30px 0 0 0;
+    .about_us-block {
+      height: 370px;
+      .vertical-center {
+        .flex-start {
+          .text-block {
+            h2 {
+              padding-top: 10px;
+              text-align: center;
+              font-size: 16px;
+              line-height: 24px;
+            }
+            p {
+              text-align: center;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 350px) {
+  section.about-ozessay {
+    .about_us-block {
+      height: 400px;
+    }
+  }
+}
+.owl-controls {
+  .owl-page {
+    span {
+      border: 1px solid #e0481b !important;
+      background-color: #ffffff !important;
+      opacity: 1 !important;
+      width: 10px !important;
+      height: 10px !important;
+    }
+  }
+}
+.owl-page.active span {
+  background-color: #e0481b !important;
+}
+// ************************
+// Ozessay team
+// *****************************************//
+section.ozessay-team {
+  margin: 85px 0 0 0;
+  background: url("img/about-us/team-background.svg") no-repeat;
+  background-position: center;
+  background-size: 100%;
+  .border-block {
+    border-left: 6px solid #e0481b;
+    p{
+      padding-left: 20px;
+      font-size: 20px;
+      line-height: 30px;
+      b {
+        color: #e0481b;
+      }
+    }
+  }
+  .meet-our-team {
+    margin-top: 100px;
+    .text-block {
+      width: 35%;
+      padding-top: 60px;
+      height: 330px;
+      h2 {
+        font-size: 28px;
+        margin-bottom: 25px;
+        font-weight: 500;
+      }
+      p {
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+    .image-block {
+      width: 21.5%;
+      padding-top: 100px;
+      height: 330px;
+      img {
+        box-shadow: 0 0 40px -2px #a6a6a6;
+        border-radius: 50%;
+      }
+      .authors {
+        width: 135px;
+        margin: auto;
+        p.name {
+          padding-top: 20px;
+          font-size: 16px;
+          text-align: center;
+          font-weight: 500;
+        }
+        p.position {
+          font-size: 14px;
+          text-align: center;
+          color: #7b7b7b;
+          margin-top: -8px;
+        }
+      }
+    }
+  }
+}
+// Responsive ozessay team
+@media only screen and (max-width: 1200px) {
+  section.ozessay-team {
+    .meet-our-team {
+      .text-block {
+        padding-top: 0;
+        height: 350px;
+      }
+      .image-block {
+        height: 350px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  section.ozessay-team {
+    margin: 45px 0 0 0;
+    .border-block {
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .meet-our-team {
+      margin-top: 70px;
+      .text-block {
+        width: 100%;
+        height: auto;
+        h2 {
+          font-size: 24px;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+      .meet-our-team-slider {
+        .image-block {
+          padding-top: 30px;
+          width: auto;
+          height: auto;
+          margin: auto;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 550px) {
+  section.ozessay-team {
+    background: url("img/about-us/team-mobile.bg.svg") no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+  }
+}
+// ************************
+// Contact us
+// *****************************************//
+/* section.contact-us {
+  background: url("img/about-us/contact-us-bg.svg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 140px 0 160px 0;
+  h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #e0481b;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 40px;
+  }
+  .contact-btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #e0481b;
+    padding: 18px 25px 15px 25px;
+    border-radius: 23px;
+    box-shadow: 0 0 15px rgba(115, 44, 18, 0.4);
+    &:hover {
+      box-shadow: 0 0 20px #e0481b;
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  section.contact-us {
+    background: url("img/about-us/contact-us-mob.svg") no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding: 75px 0 80px 0;
+  }
+} */
+// ************************
+// Live chat
+// *****************************************//
+section.live-chat {
+  background: url("img/about-us/guarantee-footer-bg.svg") no-repeat;
+  background-size: cover;
+  margin-top: 150px;
+  .plagiarism_email {
+    .email_lead {
+      background: none;
+      .section-text {
+        .section-text-0 {
+          color: #ffffff;
+          font-size: 30px;
+          font-weight: 500;
+          text-transform: uppercase;
+        }
+        .section-text-1 {
+          color: #ffffff;
+          font-size: 30px;
+          font-weight: 500;
+        }
+      }
+      .email_lead-text__block {
+        .form-control {
+          border-radius: 23px !important;
+          font-size: 15px;
+        }
+        .collector-continue-btn {
+          text-transform: uppercase;
+          border-radius: 23px;
+          background-color: #6c9f31;
+          font-size: 15px !important;
+        }
+      }
+    }
+  }
+  .start-message {
+    padding: 50px 0 90px 0;
+    h2 {
+      font-size: 30px;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 29px;
+      margin-bottom: 40px;
+    }
+    .msg-btn {
+      text-decoration: none;
+      background-color: #1e88e5;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 23px;
+      padding: 17px 20px 15px 0;
+      i.msg {
+        background: url("img/about-us/messenger.svg") no-repeat;
+        display: inline-block;
+        vertical-align: middle;
+        width: 20px;
+        height: 20px;
+        margin-left: 20px;
+        margin-right: 8px;
+        background-size: cover;
+      }
+      &:hover {
+        background-color: #1e62b4;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  section.live-chat {
+    background: none;
+    .plagiarism_email {
+      background: url("img/about-us/top-mob-chat.svg") no-repeat;
+      background-size: cover;
+      padding-bottom: 25px;
+      .valign {
+        .emailCollector {
+          flex-direction: column;
+          align-items: center;
+          padding-top: 10px;
+          input {
+            width: 100%;
+          }
+        }
+        .section-text {
+          display: block;
+          .section-text-0 {
+            margin: 35px 0 15px 0;
+            font-size: 22px !important;
+            font-weight: 500;
+          }
+          .section-text-1 {
+            font-size: 22px !important;
+            font-weight: 500;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+    .start-message {
+      background: url("img/about-us/bottom-mob-chat.svg") no-repeat;
+      background-size: cover;
+      p {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+

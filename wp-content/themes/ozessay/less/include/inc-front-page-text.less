@@ -1,0 +1,115 @@
+.front-page-text {
+  padding: 40px 0 60px;
+  color: #1c1819;
+  h2.main-color {
+    color: #b42f00;
+  }
+  ul.main-color {
+    max-width: 610px;
+    padding-left: 0;
+    li {
+      min-width: 300px;
+      display: inline-block;
+      margin-top: 15px;
+      &:before {
+        content: "\f00c";
+        display: inline-block;
+        font: 14px/1 FontAwesome;
+        font-size: 16px;
+        width: 30px;
+        color: #b42f00;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    }
+  }
+  ul {
+    margin: 10px 0;
+    padding-left: 0;
+    li {
+      list-style-type: none;
+      position: relative;
+      padding-left: 15px;
+      font-size: 16px;
+      line-height: 22px;
+      margin-top: 15px;
+      font-weight: 400;
+      &:before {
+        content: "\25CF";
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 12px;
+        color: #b42f00;
+      }
+    }
+  }
+  ol {
+    margin: 10px 0 0 25px;
+    padding-left: 0;
+    li {
+      //list-style-type: none;
+      position: relative;
+      padding-left: 15px;
+      font-size: 16px;
+      line-height: 22px;
+      margin-top: 15px;
+      font-weight: 400;
+    }
+  }
+  .heading-block p {
+    font-size: 34px;
+    margin: 15px 0;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 600;
+    text-align: center;
+    &::after {
+      margin: 30px auto 0;
+      display: block;
+      content: '';
+      width: 73px;
+      border-top: 3px solid #b42f00;
+    }
+  }
+  .heading-block.text-center.nomargin, h2.front-page-text__title {
+    font-size: 24px;
+    display: block;
+    margin: 10px auto 0;
+    max-width: 700px;
+    color: #888b94;
+    font-weight: 300;
+  }
+  h2.front-page-text__title{
+    display: inline-block;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 1.3;
+    font-weight: 600;
+    font-family: inherit;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    border-top: 1px solid #bdbdbd;
+    &:nth-of-type(1) {
+      border: none;
+    }
+  }
+  p {
+    font-size: 18px;
+    margin: 18px 0 0;
+    font-weight: 400;
+  }
+  .smartman {
+    margin: -40px 0;
+  }
+  @media (max-width: @min-sm) {
+    img {
+      display: block;
+      margin: 15px auto !important;
+      float: none !important;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="290px" viewBox="0 0 375 290" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>plas + oval Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="160.244188%" y1="50.8349422%" x2="-46.6910911%" y2="39.8374323%" id="linearGradient-1">
+            <stop stop-color="#E0481B" offset="0%"></stop>
+            <stop stop-color="#F7BC40" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="0 0 375 0 375 290 0 290"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="OZessay_mobile_home" transform="translate(0.000000, -5575.000000)">
+            <g id="footer" transform="translate(-1.000000, 4641.000000)">
+                <g id="need-help" transform="translate(1.000000, 934.000000)">
+                    <g id="plas-+-oval-Mask">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Mask" fill="url(#linearGradient-1)" opacity="0.296819196" transform="translate(187.500000, 145.000000) scale(-1, 1) translate(-187.500000, -145.000000) " xlink:href="#path-2"></use>
+                        <g id="plas" opacity="0.182254464" mask="url(#mask-3)" stroke-linecap="square">
+                            <g transform="translate(7.000000, -302.000000)" id="3-copy-2">
+                                <g transform="translate(107.000000, 520.000000)">
+                                    <path d="M16,1.04526107e-16 L16,30.1275992" id="Line" stroke="#FFFFFF" stroke-width="2"></path>
+                                    <path d="M16,1.04526107e-16 L16,30.1275992" id="Line-Copy" stroke="#FFFFFF" stroke-width="2" transform="translate(16.000000, 15.063800) rotate(90.000000) translate(-16.000000, -15.063800) "></path>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="oval" opacity="0.176841518" mask="url(#mask-3)" stroke="#FFFFFF" stroke-width="2">
+                            <g transform="translate(-23.000000, -346.000000)">
+                                <ellipse id="Oval-9-Copy" cx="357.5" cy="619.734317" rx="63.5" ry="63.7343173"></ellipse>
+                                <ellipse id="Oval-8-Copy" cx="40" cy="583.0369" rx="10" ry="10.0369004"></ellipse>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

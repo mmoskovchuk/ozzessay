@@ -1,0 +1,552 @@
+/*PAGE: OUR-WRITERS
+-------------------------------------------------*/
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*BREADCRUMB*/
+
+.breadcrumb-writers {
+  position: absolute;
+  //width: 100%;
+  font-size: 14px;
+  color: #888b94;
+  font-family: Helvetica-Regular;
+  padding: 40px 0 0 15px !important;
+  @media (max-width: 520px) {
+    padding: 32px 0 0 15px !important;
+  }
+  li {
+    display: inline-block;
+    margin-right: 3px;
+    a {
+      text-decoration: none;
+      color: #1c1819;
+      position: relative;
+    }
+  }
+
+  li:not(:last-child) {
+    a {
+      &:after {
+        content: '';
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        background-color: #e0471a;
+        border-radius: 3px;
+        top: 4px;
+        right: -12px;
+      }
+    }
+    &:nth-child(2) {
+      color: transparent;
+    }
+  }
+
+}
+
+/*TOP BLOCK*/
+
+.site_top-block {
+  background: url(img/site-top-bg.jpg) 600px -169px no-repeat;
+  padding: 80px 0 0;
+  @media (max-width: 1440px) {
+    background: url(img/site-top-bg.jpg) 337px -323px no-repeat;
+  }
+  @media (max-width: 1366px) {
+    background: url(img/site-top-bg.jpg) 337px -323px no-repeat;
+  }
+  @media (max-width: 1280px) {
+    background: url(img/site-top-bg.jpg) 337px -323px no-repeat;
+  }
+  @media (max-width: 1024px) {
+    background: url(img/site-top-bg.jpg) 53px -180px no-repeat;
+  }
+  @media (max-width: 768px) {
+    background: url(img/site-top-bg.jpg) -149px -408px no-repeat;
+  }
+  @media (max-width: 520px) {
+    background: url(img/site-top-bg.jpg) -287px -510px no-repeat;
+  }
+  &__wrapper {
+    margin-top: 22px;
+  }
+  &__title {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #ce5017;
+    font-weight: 500;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-family: Helvetica;
+    @media(max-width: 768px) {
+      margin-top: 0;
+      margin-bottom: 0;
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  &__desc {
+    color: #000000;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    @media(max-width: 768px) {
+      margin-bottom: 100px;
+      text-align: center;
+      font-size: 13px;
+    }
+  }
+  &__text {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+  }
+  &__img-icon-writers {
+    background: url(img/our-writers/picture-top.png) 15% 0 no-repeat;
+    width: 450px;
+    height: 306px;
+    margin-top: 30px;
+    @media(max-width: 768px) {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.page_our-writers {
+  &__top-title-h2 {
+    text-align: center;
+    margin-top: 56px;
+    margin-bottom: 60px;
+    color: #000000;
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    @media(max-width: 768px) {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+  }
+  &__top-title {
+    p {
+      text-align: left;
+      color: #000000;
+      font-family: Helvetica;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      @media(max-width: 768px) {
+        font-size: 14px;
+      }
+      &:nth-child(2) {
+        margin-bottom: 25px;
+      }
+    }
+  }
+  &__title {
+    text-align: center;
+    color: #000000;
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 102px;
+    margin-bottom: 20px;
+    @media(max-width: 768px) {
+      font-size: 18px;
+    }
+  }
+  &__desc {
+    text-align: center;
+    color: #000000;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 60px;
+    @media(max-width: 768px) {
+      font-size: 14px;
+    }
+  }
+}
+
+
+/*REVIEWS*/
+
+[data-crm-widget=ourWriters] .cw-ourWriters-filter-tabs .cw-ourWriters-filters-item {
+  background-color: #f2f8ff;
+  border-bottom: 1px dashed #dddddd !important;
+  border-top: 1px dashed #dddddd !important;
+  border-right: 2px dashed #ddd!important;
+
+  color: #494949 !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+  &:last-child {
+    border-right: 1px dashed #ddd!important;
+  }
+  &:first-child {
+    border-left: 1px dashed #ddd!important;
+  }
+}
+
+[data-crm-widget=ourWriters] .cw-ourWriters-filter-tabs .cw-ourWriters-filters-item.active {
+  color: #ffffff !important;
+  background: #ffb71f !important;
+}
+[data-crm-widget=ourWriters] .cw-writer-icon:before {
+  border-radius: 40px;
+  border: 3px solid #f7bc40 !important;
+  background: none !important;
+  width: 80px !important;
+  height: 80px !important;
+  top: 0 !important;
+  left: 15px !important;
+}
+[data-crm-widget=ourWriters] .cw-in-progress .cw-writer-icon:before {
+  border-radius: 40px;
+  border: 3px solid #a3a3a3 !important;
+  background: none !important;
+  width: 80px !important;
+  height: 80px !important;
+  top: 0 !important;
+  z-index: 2;
+  left: 15px !important;
+}
+[data-crm-widget=ourWriters] .cw-writer-info-container {
+  .cw-writer-common-details {
+    height: auto !important;
+    background-color: #f2f8ff !important;
+  }
+}
+
+.cw-writer-level {
+  color: #ce5017 !important;
+  font-family: Helvetica !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  line-height: 14px !important;
+  margin: 8px 0 8px 0 !important;
+}
+
+.cw-writer-refistration-date {
+  font-size: 13px !important;
+  color: #494949 !important;
+  font-family: Helvetica !important;
+  line-height: 14px !important;
+  margin-bottom: 3px !important;
+}
+
+[data-crm-widget=ourWriters] .cw-writer-info-container.recommended .cw-writer-recommended {
+  display: none !important;
+}
+
+[data-crm-widget=ourWriters] .cw-writer-info-container {
+  border: 2px solid #f2f8ff !important;
+}
+[data-crm-widget=ourWriters] .cw-writer-status-header {
+  border-bottom: 2px solid #f2f8ff !important;
+}
+[data-crm-widget=ourWriters] .cw-writer-rating-container {
+  color: #494949 !important;
+  font-family: Helvetica !important;
+  font-size: 13px!important;
+  line-height: 13px!important;
+  text-transform: capitalize !important;
+  @media (max-width: 768px) {
+    font-size: 11px!important;
+    line-height: 11px!important;
+  }
+}
+.cw-satisfaction-rate,
+.cw-completed-works,
+.cw-rate-in-top {
+  color: #000000 !important;
+  font-family: Helvetica !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  line-height: 16px !important;
+  padding-left: 22px !important;
+  padding-top: 3px !important;
+}
+[data-crm-widget=ourWriters] .cw-writer-info.cw-vacant {
+  .cw-satisfaction-rate {
+    background: url(img/our-writers/like.svg) 0 0 no-repeat !important;
+    padding-left: 22px !important;
+    padding-top: 3px !important;
+  }
+  .cw-completed-works {
+    background: url(img/our-writers/icon-a.svg) 0 0 no-repeat !important;
+    padding-left: 22px !important;
+    padding-top: 2px !important;
+  }
+  .cw-rate-in-top {
+    background: url(img/our-writers/star.svg) 0 0 no-repeat !important;
+    padding-left: 22px !important;
+    padding-top: 3px !important;
+  }
+}
+[data-crm-widget=ourWriters] .cw-in-progress {
+  .cw-satisfaction-rate {
+    background: url(img/our-writers/like-silver.svg) 0 0 no-repeat !important;
+    padding-left: 22px !important;
+    padding-top: 3px !important;
+  }
+  .cw-completed-works {
+    background: url(img/our-writers/А-silver.svg) 0 0 no-repeat !important;
+    padding-left: 22px !important;
+    padding-top: 2px !important;
+  }
+  .cw-rate-in-top {
+    background: url(img/our-writers/star-silver.svg) 0 0 no-repeat !important;
+    padding-left: 22px !important;
+    padding-top: 3px !important;
+  }
+}
+[data-crm-widget=ourWriters] .cw-currency {
+  display: none !important;
+}
+[data-crm-widget=ourWriters] .cw-writer-info {
+  .col-xs-6.text-center {
+    width: 100% !important;
+  }
+  .col-xs-6.text-center + .col-xs-6.cw-no-left-padd {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    > [data-role="accept-writer"] {
+      width: 146px !important;
+      height: 40px !important;
+      border-radius: 4px !important;
+      background-color: #ffb71f !important;
+      color: #ffffff !important;
+      font-family: Helvetica !important;
+      font-size: 14px !important;
+      font-weight: 500 !important;
+      line-height: 16px !important;
+      text-transform: uppercase !important;
+    }
+  }
+}
+[data-crm-widget=ourWriters] .cw-price-per-page {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  margin-bottom: 30px !important;
+
+  color: #ce5017 !important;
+  font-family: Helvetica !important;
+  font-size: 26px !important;
+  font-weight: 500 !important;
+  line-height: 20px !important;
+  span {
+    color: #494949 !important;
+    font-size: 13px !important;
+    line-height: 10px !important;
+    margin-right: 6px !important;
+    text-transform: capitalize !important;
+  }
+}
+
+[data-crm-widget=ourWriters] .cw-writer-info-title {
+  font-weight: 400 !important;
+  color: #494949 !important;
+  font-family: Helvetica !important;
+  font-size: 14px !important;
+  line-height: 14px !important;
+  margin-top: 28px !important;
+}
+[data-crm-widget=ourWriters] .cw-writer-subjects-list {
+  color: #000000 !important;
+  font-family: Helvetica !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 20px !important;
+  margin-top: 13px !important;
+}
+span.fa.fa-heart {
+  margin-left: 30px;
+}
+span.fa.fa-heart-o {
+  margin-left: 30px;
+}
+[data-label="show-more-feedback"] {
+  color: #ce5017 !important;
+  font-family: Helvetica !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  line-height: 16px !important;
+  span.fa.fa-chevron-down {
+    &:before {
+      color: #ce5017 !important;
+      font-size: 10px !important;
+      vertical-align: middle !important;
+    }
+  }
+}
+
+[data-crm-widget=ourWriters] .cw-filter-container {
+  background-color: #f2f8ff !important;
+  border: none !important;
+}
+
+[data-crm-widget=ourWriters] .cw-filter-header {
+  border-bottom: 1px dashed #dddddd !important;
+}
+[data-crm-widget=ourWriters] .cw-filter-header .fa-cog {
+  display: none !important;
+}
+[data-crm-widget=ourWriters] .cw-filter-header {
+  color: #ce5017 !important;
+  font-family: Helvetica !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+}
+[data-crm-widget=ourWriters] .cw-filter-title {
+  color: #000000 !important;
+  font-family: Helvetica !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  span.fa.fa-chevron-down {
+    color: #ce5017 !important;
+  }
+}
+[data-crm-widget=ourWriters] .cw-filter-list input[type=radio]:checked+span+span {
+  font-weight: 500 !important;
+  color: #494949 !important;
+  font-family: Helvetica !important;
+  font-size: 14px !important;
+}
+[data-crm-widget=ourWriters] .cw-filter-list input[type=radio]:checked+span:before {
+  background: url(img/our-writers/pointer.png) -1px -1px no-repeat !important;
+  z-index: 2;
+  border: none !important;
+  position: absolute !important;
+  top: -3px !important;
+}
+[data-crm-widget=ourWriters] .cw-filter-list input[type=radio]+span:before {
+  background: #ffffff !important;
+  width: 16px !important;
+  height: 16px !important;
+  z-index: 1;
+  border: 1px solid #e6e8ed !important;
+  top: -3px !important;
+  @media (max-width: 768px) {
+    top: 0 !important;
+  }
+}
+[data-crm-widget=ourWriters] .cw-filter-list-item {
+  margin-bottom: 15px !important;
+}
+[data-crm-widget=ourWriters] .cw-vacant > .cw-writer-status {
+  z-index: 2;
+  transform: none !important;
+  border-right: 0 !important;
+  border-left: 0 !important;
+  border-bottom: none !important;
+  background-image: linear-gradient(100deg, #a2c832 0%, #429321 100%);
+  right: -550px !important;
+  top: -8px !important;
+  display: flex !important;
+  width: 181px !important;
+  height: 39px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-family: "BebasNeue-Bold";
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+[data-crm-widget=ourWriters] .cw-in-progress > .cw-writer-status {
+  z-index: 2;
+  transform: none !important;
+  border-right: 0 !important;
+  border-left: 0 !important;
+  border-bottom: none !important;
+  background-image: linear-gradient(to right, #e8c000 0%, #f78e01 100%);
+  right: -550px !important;
+  top: -8px !important;
+  display: flex !important;
+  width: 181px !important;
+  height: 39px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-family: "BebasNeue-Bold";
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+
+[data-crm-widget=ourWriters] {
+  .cw-in-progress,
+  .cw-vacant {
+    .cw-writer-status {
+      @media (max-width: 1024px) {
+        width: 110px!important;
+        min-width: 39px!important;
+        font-size: 17px!important;
+        top: -21px!important;
+        right: -448px!important;
+        height: auto!important;
+      }
+      @media (max-width: 768px) {
+        width: 110px!important;
+        min-width: 39px !important;
+        font-size: 17px !important;
+        top: -21px !important;
+        right: -1px!important;
+        height: auto!important;
+      }
+      @media (max-width: 414px) {
+        width: 110px!important;
+        min-width: 39px !important;
+        font-size: 17px !important;
+        top: -21px !important;
+        right: -1px!important;
+        height: auto!important;
+      }
+      @media (max-width: 375px) {
+        width: 78px!important;
+        min-width: 39px !important;
+        font-size: 16px !important;
+        top: -21px !important;
+        right: -1px!important;
+        height: auto!important;
+      }
+      @media (max-width: 320px) {
+        width: 78px!important;
+        min-width: 39px !important;
+        font-size: 14px !important;
+        top: -21px !important;
+        right: -1px!important;
+        height: auto!important;
+      }
+    }
+  }
+}
+[data-crm-widget=ourWriters] .cw-writer-name {
+  @media (min-device-width: 768px) and (max-device-width: 1024px) {
+    font-size: 13px!important;
+  }
+}
+[data-crm-widget=ourWriters] .cw-writer-rating-container {
+  margin-bottom: 25px !important;
+}
+#button-favorite {
+  span.fa.fa-heart {
+    margin-left: 5px;
+  }
+}
+
+[data-crm-widget=ourWriters] .cw-writer-info .cw-rate-in-top+span, [data-crm-widget=ourWriters] .cw-writer-info .cw-satisfaction-rate+span, [data-crm-widget=ourWriters] .cw-writer-info .cw-completed-works+span {
+  @media (max-width: 414px) {
+    font-size: 11px !important;
+  }
+}

@@ -1,0 +1,52 @@
+html, body {font: 300 16px/1.25 Roboto, sans-serif;}
+body {
+	margin: 0;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	min-height: 100vh;
+	min-width: 300px;
+	font-family: 'Helvetica',sans-serif;
+	line-height: 1.42857143;
+	font-size: 14px;
+	color: #1c1819;
+}
+.site_main {
+	flex: 1 0 auto;
+	margin-top: 132px;
+	@media (max-width: 1024px) {
+		margin-top: 60px;
+	}
+	@media (max-width: 320px) {
+		margin-top: 48px;
+	}
+}
+.content {padding: 80px 0 60px;}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+section{
+  box-sizing: content-box;
+}
+
+/*COMMON: ALIGNMENTS*/
+.alignleft {
+	float: left;
+	margin: 0.25em 1em 1em 0;
+	clear: both;
+}
+.alignright {
+	float: right;
+	margin: 0.25em 0 1em 1em;
+	clear: both;
+}
+.aligncenter {
+	display: block;
+	margin: 0.25em auto 1em auto;
+	clear: both;
+}
+

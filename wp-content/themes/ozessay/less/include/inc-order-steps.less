@@ -1,0 +1,90 @@
+.site_order-steps {
+	padding-bottom: 30px;
+	&__item {
+		max-width: 300px;
+		padding: 30px 0;
+		margin: 0 auto 80px;
+		text-align: center;
+		position: relative;
+		&:before, &:after {
+			content: '';
+			position: absolute;
+			bottom: 100%;
+			right: 50%;
+			height: 52px;
+			margin-bottom: 12px;
+			transform: rotate(90deg);
+		}
+		&:before {
+			width: 52px;
+			margin-right: -26px;
+			background: url(img/order-steps-arrow.png);
+		}
+		&:after {
+			width: 29px;
+			margin-right: -15px;
+			background: url(img/order-steps-arrow-single.png);
+    	animation-name: orderStepsArrowBottom;
+    	animation-duration: 3s;
+			animation-iteration-count: infinite;
+			animation-timing-function: steps(4, end);
+		}
+	}
+	&__col-1 &__item {
+		&:before, &:after {content: none;}
+	}
+	&__icon {
+		width: 90px;
+		height: 90px;
+		line-height: 90px;
+		margin: 0 auto 10px;
+		font-size: 50px;
+		color: @c2;
+		text-align: center;
+	}
+	&__text {
+		font-size: 18px;
+		color: #929292;
+	}
+	&__col-4 &__item {
+		margin-bottom: 0;
+	}
+	&__col-4 &__icon {
+		color: @c1;
+		border: 2px solid @c1;
+		border-radius: 100%;
+	}
+	&__col-4 &__text {color: @c1;}
+
+	@media (min-width: @min-sm) {
+		&__item {
+			margin: auto;
+			padding: 60px 0;
+			&:before, &:after {
+				top: 100px;
+				right: 100%;
+				margin: 0;
+				transform: none;
+			}
+			&:after {animation-name: orderStepsArrowRight;}
+		}
+		&__icon {
+			width: 150px;
+			height: 150px;
+			line-height: 125px;
+			margin-bottom: 30px;
+			font-size: 72px;
+		}
+	}
+}
+
+
+@keyframes orderStepsArrowBottom {
+  from {margin-bottom: 23px}
+  to {margin-bottom: -8px}
+}
+
+@keyframes orderStepsArrowRight {
+  from {margin-right: 23px}
+  to {margin-right: -8px}
+}

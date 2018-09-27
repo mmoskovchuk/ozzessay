@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="99px" height="70px" viewBox="0 0 99 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ozEssay2" transform="translate(-1102.000000, -1203.000000)">
+            <g id="Why-OZessay-is-the-best-pick?" transform="translate(436.000000, 878.000000)">
+                <g id="5" transform="translate(562.000000, 325.000000)">
+                    <g id="Group-14">
+                        <g id="icon" transform="translate(104.000000, 0.000000)">
+                            <path d="M40.9912414,7.00390095 C32.3942906,6.8708872 24.3159845,10.1434438 18.2389208,16.2135957 C13.909376,20.5383268 11.0009052,25.8816404 9.72933367,31.7049602 C9.71469104,31.7599622 9.70189411,31.8154564 9.69192727,31.872181 C9.20330615,34.1703288 8.96927005,36.5421818 9.00323113,38.9550093 C9.24563445,56.108738 23.3586759,70.000123 40.5007746,70 C40.5573764,70 40.6144704,69.999877 40.6711952,69.9996309 C45.4125796,69.9742832 49.9650863,68.917556 54.2119434,66.8577501 L61.5507348,66.8577501 C65.1017589,66.8577501 67.9910343,63.9687309 67.9910343,60.417473 L67.9910343,53.872852 C70.564447,49.278279 71.9484839,44.0805299 71.9985642,38.8039077 C72.1625863,21.5326691 58.2528191,7.26734446 40.9912414,7.00390095 Z" id="Path" fill="#B0D5FF" opacity="0.5"></path>
+                            <path d="M45.5,14.5 L57.5,25.5" id="Line" stroke="#555C6A" stroke-width="4" stroke-linecap="square" transform="translate(51.500000, 20.000000) scale(-1, 1) translate(-51.500000, -20.000000) "></path>
+                            <path d="M65.1254883,45.6293945 L43.9430751,45.4252078 L43.9430751,66.2197266 M25.8632119,66.2197266 L25.8632119,45.250928 L3.97435883,45.0399316 M3.97435883,26.9600684 L25.8632119,26.9600684 L25.8632119,5.09714934 M43.9430751,5.09714934 L43.9430751,26.96001 L62.8198169,26.9599824 C63.9243852,26.9599808 64.8198161,27.855409 64.8198178,28.9599773 C64.8198179,29.0506743 64.8136486,29.1412663 64.8013525,29.2311259" id="Combined-Shape" stroke="#555C6A" stroke-width="4"></path>
+                            <rect id="Rectangle-9" stroke="#555C6A" stroke-width="3" transform="translate(78.899495, 9.899495) rotate(-315.000000) translate(-78.899495, -9.899495) " x="73.3994949" y="4.39949494" width="11" height="11"></rect>
+                            <rect id="Rectangle-9" stroke="#555C6A" stroke-width="3" transform="translate(90.778175, 34.778175) rotate(-315.000000) translate(-90.778175, -34.778175) " x="86.7781746" y="30.7781746" width="8" height="8"></rect>
+                            <path d="M12.5,14.5 L24.5,25.5" id="Line" stroke="#555C6A" stroke-width="4" stroke-linecap="square"></path>
+                            <path d="M12.5,47.5 L24.5,58.5" id="Line" stroke="#555C6A" stroke-width="4" stroke-linecap="square" transform="translate(18.500000, 53.000000) scale(-1, 1) translate(-18.500000, -53.000000) "></path>
+                            <path d="M45.5,46.5 L57.5,57.5" id="Line" stroke="#555C6A" stroke-width="4" stroke-linecap="square"></path>
+                            <circle id="Oval-5" stroke="#555C6A" stroke-width="4" cx="34.5" cy="35.5" r="32.5"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

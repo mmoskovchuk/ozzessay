@@ -1,0 +1,239 @@
+.experience h2 {
+    position: relative;
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin: 112px 0 58px;
+    text-align: center;
+    @media (max-width: @min-sm) {
+        font-size: 20px;
+        margin-top: 51px;
+    }
+}
+
+.experience p {
+    padding: 0 15px;
+    text-align: center;
+    font-size: 24px;
+    display: block;
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif; //margin-bottom: 60px;
+    @media (max-width: @min-sm) {
+        font-size: 20px;
+    }
+}
+
+.experience {
+    background-color: #303030;
+    .give-things {
+        margin-bottom: 80px;
+        .owl-carousel {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    color: #000;
+    font-family: 'Helvetica',
+    sans-serif;
+    .owl-item:first-child .col-md-6 .feature-box {
+        margin-bottom: 45px;
+        h3.reason-title {
+            margin-bottom: 17px;
+        }
+        @media(max-width: 768px) {
+            margin-bottom: 33px;
+        }
+    }
+    .owl-item:nth-child(2) .col-md-6 .feature-box:first-child {
+        margin-bottom: 45px;
+        @media(max-width: 768px) {
+            margin-bottom: 57px;
+        }
+        @media(max-width: 414px) {
+            margin-bottom: 45px;
+        }
+        h3.reason-title {
+            margin-bottom: 17px;
+        }
+    }
+    /* .col-md-6:nth-child(3) .feature-box {
+        margin-bottom: 105px;
+        @media(max-width: 1024px) {
+            margin-bottom: 106px;
+        }
+        @media(max-width: 768px) {
+            margin-bottom: 33px;
+        }
+        @media(min-width: 769px) {
+            &:nth-child(2) {
+                margin-top: -23px;
+            }
+            h3.reason-title {
+                margin-bottom: 17px;
+            }
+        }
+        h3.reason-title {
+            @media(max-width: 768px) {
+                margin-bottom: 17px;
+            }
+        }
+    } */
+    .feature-box {
+        padding-left: 75px;
+        padding-right: 20px;
+        margin: 0 0 30px;
+        position: relative;
+        text-align: left;
+        p {
+            color: #ffffff;
+            text-align: left;
+            padding: 0;
+        }
+        .fbox-icon {
+            display: block;
+            position: absolute;
+            width: 64px;
+            height: 64px;
+            top: 0;
+            left: 0;
+            border-radius: 50%;
+            i {
+                cursor: default;
+                font-style: normal;
+                font-size: 28px;
+                text-align: center;
+                line-height: 64px;
+                display: block;
+                position: relative;
+                width: 100%;
+                height: 100%;
+                color: #fff;
+            }
+            .icon-screen {
+                &::before {
+                    content: "\e671";
+                }
+            }
+        }
+        h3.reason-title {
+            color: #242424;
+            font-family: Helvetica;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 24px;
+            text-transform: uppercase;
+            margin-bottom: 0;
+            margin-top: 0;
+            width: 99%;
+        }
+        p {
+            color: #ffffff;
+            font-family: Helvetica;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    .show-more {
+        margin-top: -20px;
+        text-align: center;
+    }
+    .show-details {
+        color: #fff;
+        text-align: center;
+        font-size: 52px;
+        background: #acb41a;
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+        z-index: 10;
+        bottom: -48px;
+        text-decoration: none !important;
+        &:hover {
+            cursor: pointer;
+            background: #90c102;
+            transition: background .2s;
+        }
+        &.fa-angle-down {
+            line-height: 49px;
+            &::before {
+                content: "\f107";
+            }
+        }
+        &.fa-angle-up {
+            line-height: 43px;
+            &::before {
+                content: "\f106";
+            }
+        }
+    }
+    &__bottom-block {
+        p {
+            color: #ffffff;
+            font-family: Helvetica;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            span {
+                color: #ffa600;
+            }
+            &:first-child {
+                margin-bottom: 30px;
+            }
+        }
+        &-text-2 {
+            margin-bottom: 50px;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        a {
+            display: block;
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            button {
+                border: none;
+                color: #ffffff;
+                font-family: Helvetica;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 16px;
+                text-transform: uppercase;
+                width: 200px;
+                height: 50px;
+                box-shadow: 0 0 30px -8px rgba(0, 0, 0, 0.3);
+                border-radius: 25px;
+                background-color: #ffa503;
+                outline: none;
+                &:hover {
+                    background-color: #e09000;
+                }
+            }
+            margin-bottom: 87px;
+        }
+    }
+}
+
+.experience .owl-controls .owl-page span {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #ffa503 !important;
+    background-color: #303030 !important;
+}
+
+.experience .owl-controls .owl-page.active span,
+.owl-controls.clickable .owl-page:hover span {
+    width: 10px;
+    height: 10px;
+    background-color: #ffa503 !important;
+}
+
+@media (max-width: 1024px) {
+    .experience .owl-next,
+    .experience .owl-prev {
+        display: none !important;
+    }
+}
